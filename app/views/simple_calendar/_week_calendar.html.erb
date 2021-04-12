@@ -9,7 +9,7 @@
     <%= link_to t('simple_calendar.next', default: '翌週'), calendar.url_for_next_view %>
     <% reservations = Reservation.reservations_after_three_month %>
   </div>
-  <table class="table table-striped">
+  <table class="table table-striped" style="table-layout:fixed;">
     <thead>
       <tr>
         <th>時間</th>
