@@ -1,0 +1,19 @@
+<div class="container-fluid px-0">
+  <div class="image-wrap">
+    <div class="dental-clinic-img"></div>
+      <div class="text-center top-text-wrap">
+        <h1>
+          小畑歯科医院へようこそ！
+        </h1>
+        <p>会員制のプライベート歯科医院です。<br />
+        予約には会員登録が必要です。
+        </p>
+        <div class="mb-3">
+          <%= link_to "新規会員登録", new_user_registration_path, class: "btn btn-primary btn-lg w-75" %>
+        </div>
+        <div>
+          <%= link_to "ログイン", new_user_session_path, class: "btn btn-secondary btn-lg btn-shadow w-75" %>
+        </div>
+      </div>
+  </div>
+</div>
