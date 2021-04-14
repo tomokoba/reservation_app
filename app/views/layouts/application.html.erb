@@ -29,7 +29,7 @@
           <%= link_to "ログイン", new_user_session_path %>
         </li>
       <% end %>
-  
+
       <% if flash[:notice] %>
         <div class="alert alert-info mb-0">
           <button type="button" class="close" data-dismiss="alert" aria-lebel="Close">
@@ -46,12 +46,12 @@
           <%= flash[:alert] %>
         </div>
       <% end %>
-  
+
       <%= yield %>
-      <footer>
+      <footer class="fixed-bottom">
         <div class="container">
           <div class="text-center">
-            <p class="mb-0 py-4">
+            <p class="mb-0 py-2">
               Copyright © Kobata dental clinic
             </p>
           </div>
